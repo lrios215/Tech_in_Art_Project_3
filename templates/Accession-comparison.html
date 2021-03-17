@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tech in Art</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="{{url_for('Home')}}">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+   <div class="collapse navbar-collapse active" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      </li>
+      <li class="nav-item active">
+          <a class="nav-link" href="{{url_for('Dashboard_Visualizations')}}">Dashboard Visualizations</a>
+      </li>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="{{url_for('D3_Chord')}}">D3/Chord Visualization</a>
+    </li>
+      <li class="nav-item active">
+          <a class="nav-link" href="{{url_for('Map')}}">Map</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="{{url_for('Chinese_Art')}}">Chinese Art</a>
+    </li>
+    <li class="nav-item active">
+      <a class="nav-link" href="{{url_for('Machine_Learning')}}">Machine Learning</a>
+    </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="{{url_for('About_Us')}}">About Us</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<br>
+<br>
+
+<div class = Tableau Visuals >  
+    
+    <h2 style="text-align: center">How is Cutting Edge Technology being Applied to Art?</h2>
+
+    <div class= "container">
+      <div class="row justify-content-md-center">
+    <p>The following visualizations highlight select trends and information from the Met Open Access Dataset.</p>
+    <p>For more information on the fields included in the dataset, visit the <a href="https://metmuseum.github.io/#object" target="_blank">Met Fields</a> page on Github.</p>
+    <br><br><br>
+
+    <h3 style="text-align: center">Accession Pre and Post World War II and Overall Accession of Met Collection</h3><br>
+    <p align="center"><iframe width="1100" height="700" src="https://public.tableau.com/views/Project3_16144422699010/AccessionofArtPieces?:
+      language=en&:display_count=y&:origin=viz_share_link:embed=yes&:showVizHome=no" ></iframe></p>
+    <br>
+</div>
+<br>
+
+<div class = Tableau Visuals >
+  <h3 style="text-align: center">The Met Arts Stats I</h3>
+
+  <br>
+  <p align="center"><iframe width="1100" height="900" src="https://public.tableau.com/views/Project3_Dashboard_16140582624580/Arts_Story?:
+    language=en&:display_count=y&publish=yes&:origin=viz_share_link:embed=yes&:showVizHome=no" ></iframe></p>
+  <br>
+</div>
+
+<br>
+  <h3 style="text-align: center">The Met Arts Stats II (Power BI)</h3>
+  <a><center><img src="./../static/Images/The_MET_Objects_Dashboard_PBI.jpg" width="1100" height="660"></center></a><br>
+
+<br>
+  <div class = Tableau Visuals >
+    <h3 style="text-align: center">Average Object Age and Years of Met Possession by Department</h3>
+  
+    <br>
+    <p align="center"><iframe width="1100" height="900" src="https://public.tableau.com/views/ObjectAgeandMetPossessionDashboards/AvgAgeYrsPossessionbyDepartment?:
+      language=en&:display_count=y&:origin=viz_share_link:embed=yes&:showVizHome=no" ></iframe></p>
+    <br>
+  </div>
+
+  <br>
+  <div class = Tableau Visuals >
+    <h3 style="text-align: center">Average Object Age by Accession Year</h3>
+    
+    <br>
+    <p align="center"><iframe width="1100" height="900" src="https://public.tableau.com/views/ObjectAgeandMetPossessionDashboards/AvgAgebyAccessionYear?:
+      language=en&:display_count=y&:origin=viz_share_link:embed=yes&:showVizHome=no" ></iframe></p>
+    <br>
+  </div>
+
+<!-- Footer -->
+<footer class="footer font-small footer-dark">
+  <div class="footer-copyright text-center py-1">© Copyright Coding Bootcamp 2021</div>      
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
